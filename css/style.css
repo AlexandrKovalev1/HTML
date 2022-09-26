@@ -1,0 +1,289 @@
+@font-face {
+  font-family: 'Graphik LCG';
+  src: url('/fonts/GraphikLCG-Medium.woff2') format('woff2'),
+    url('/fonts/GraphikLCG-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('/fonts/Gilroy-Regular.woff') format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+    url('/fonts/Gilroy-ExtraBold.woff') format('woff');
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('/fonts/Gilroy-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gilroy', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+td,
+th,
+table {
+  border: 1px solid black;
+}
+
+table {
+  margin-top: 100px;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 5px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.main-content {
+  background-color: #222020;
+  /*Цвет фона*/
+  height: 100vh;
+  /* Высота относительно экрана*/
+  display: flex;
+  /*флексбокс */
+  flex-direction: column;
+  /*Гдавная ось сама меняет своё расположение сверху вниз*/
+  justify-content: center;
+  /* Отвечает за выравнивание элементов по главной оси:*/
+  align-items: center;
+  /*работает с осью, перпендикулярной главной оси*/
+
+}
+
+.title {
+  margin-bottom: 30px;
+  font-family: 'Graphik LCG', sans-serif;
+  color: white;
+}
+
+.linkDownload {
+  margin-right: 10px;
+  display: inline-block;
+  padding: 20px;
+  border: 3px solid #2f1ce4;
+  color: white;
+  background-color: #2f1ce4;
+}
+
+.linkAbout {
+  display: inline-block;
+  padding: 20px;
+  border: 3px solid white;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 30px 0 30px 0;
+}
+
+.linkReturn {
+  padding-left: 30px;
+  background-image: url('/img/return.png');
+  background-position: left center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+
+.titleProgram {
+  margin-top: 100px;
+  padding-left: 100px;
+  font-size: 48px;
+  color: #222020;
+}
+
+.subtitle {
+  margin: 100px 0 25px 0;
+  padding-left: 180px;
+  font-size: 36px;
+  color: #2f1ce4;
+}
+
+.list {
+  padding-left: 200px;
+  font-size: 18px;
+  color: #2f1ce4;
+}
+
+.paragraph {
+  margin-bottom: 20px;
+  padding-left: 180px;
+}
+
+.figure {
+  margin: 50px 0 50px 0;
+  padding-left: 200px;
+  display: inline-block;
+  text-align: center;
+}
+
+.img {
+  max-width: 400px;
+}
+
+.linkTaggs {
+  text-decoration: underline;
+  color: #2f1ce4;
+}
+
+.blue {
+  color: #2f1ce4;
+}
+
+.containerModules {
+  margin: 0 auto;
+  width: 1180px;
+  padding-top: 58px;
+}
+
+.paragraphModules {
+  margin-bottom: 61px;
+  font-family: 'Graphik LCG', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.linkReturnModules {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.headerModules {
+  margin-bottom: 97px;
+  padding: 0 80px 0 80px;
+  font-size: 0;
+}
+
+.titleModules {
+  padding: 107px 0 79px 20px;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.card {
+  position: relative;
+  /* Позиция для фиксации эллемента и позиционирования абсолют*/
+  min-width: 480px;
+  min-height: 505px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 3px solid #eaeaea;
+  box-shadow: 0px 5px 10px 2px rgb(34 60 80 / 20%);
+}
+
+.titleCard {
+  padding: 205px 0 33px 52px;
+  font-size: 38px;
+  font-weight: 900;
+  color: #2f1ce4;
+}
+
+.listCard {
+  padding-left: 52px;
+  font-size: 16px;
+  font-weight: 400;
+  list-style: none;
+}
+
+.listCard :not(:last-child) {
+  padding-bottom: 22px;
+}
+
+.cardEnter {
+  margin: 0 60px 60px 0;
+  background-image: url('/img/enter.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 480px 180px;
+}
+
+.cardHtml {
+  margin-bottom: 60px;
+  background-image: url('/img/Html.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 480px 180px;
+}
+
+.cardCss {
+  margin-right: 60px;
+  background-image: url('/img/photo-1507721999472-8ed4421c4af2.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 480px 180px;
+}
+
+.cardMaket {
+  background-image: url('/img/maket.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 480px 180px;
+
+}
+
+.number {
+  position: absolute;
+  right: 23px;
+  bottom: 29px;
+  font-size: 48px;
+  color: #eaeaea;
+}
+
+.button {
+  text-align: center;
+}
+
+button {
+  width: 280px;
+  height: 80px;
+  border: 3px solid #2f1ce4;
+  border-radius: 2px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #2f1ce4;
+  background-color: white;
+}
+
+.bodyImg {
+  padding-bottom: 623px;
+  background-image: url('/img/figura1.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
