@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Graphik LCG';
-  src: url('/fonts/GraphikLCG-Medium.woff2') format('woff2'),
-    url('/fonts/GraphikLCG-Medium.woff') format('woff');
+  src: url('../fonts/GraphikLCG-Medium.woff2') format('woff2'),
+    url('../fonts/GraphikLCG-Medium.woff') format('woff');
   font-display: swap;
   font-weight: 500;
   font-style: normal;
@@ -9,8 +9,8 @@
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('/fonts/Gilroy-Regular.woff2') format('woff2'),
-    url('/fonts/Gilroy-Regular.woff') format('woff');
+  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('../fonts/Gilroy-Regular.woff') format('woff');
   font-display: swap;
   font-weight: normal;
   font-style: normal;
@@ -18,8 +18,8 @@
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('/fonts/Gilroy-ExtraBold.woff2') format('woff2'),
-    url('/fonts/Gilroy-ExtraBold.woff') format('woff');
+  src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Gilroy-ExtraBold.woff') format('woff');
   font-display: swap;
   font-weight: 800;
   font-style: normal;
@@ -27,8 +27,8 @@
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('/fonts/Gilroy-Medium.woff2') format('woff2'),
-    url('/fonts/Gilroy-Medium.woff') format('woff');
+  src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('../fonts/Gilroy-Medium.woff') format('woff');
   font-display: swap;
   font-weight: 500;
   font-style: normal;
@@ -116,7 +116,7 @@ th {
 
 .linkReturn {
   padding-left: 30px;
-  background-image: url('/img/return.png');
+  background-image: url('../img/return.png');
   background-position: left center;
   background-size: 20px 20px;
   background-repeat: no-repeat;
@@ -228,7 +228,7 @@ th {
 
 .cardEnter {
   margin: 0 60px 60px 0;
-  background-image: url('/img/enter.jpg');
+  background-image: url('../img/enter.jpg');
   background-position: top;
   background-repeat: no-repeat;
   background-size: 480px 180px;
@@ -236,7 +236,7 @@ th {
 
 .cardHtml {
   margin-bottom: 60px;
-  background-image: url('/img/Html.jpg');
+  background-image: url('../img/Html.jpg');
   background-position: top;
   background-repeat: no-repeat;
   background-size: 480px 180px;
@@ -244,14 +244,14 @@ th {
 
 .cardCss {
   margin-right: 60px;
-  background-image: url('/img/photo-1507721999472-8ed4421c4af2.jpg');
+  background-image: url('../img/photo-1507721999472-8ed4421c4af2.jpg');
   background-position: top;
   background-repeat: no-repeat;
   background-size: 480px 180px;
 }
 
 .cardMaket {
-  background-image: url('/img/maket.jpg');
+  background-image: url('../img/maket.jpg');
   background-position: top;
   background-repeat: no-repeat;
   background-size: 480px 180px;
@@ -283,7 +283,7 @@ button {
 
 .bodyImg {
   padding-bottom: 623px;
-  background-image: url('/img/figura1.svg');
+  background-image: url('../img/figura1.svg');
   background-repeat: no-repeat;
   background-position: bottom;
 }
