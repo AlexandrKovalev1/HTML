@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  background-color: #E5E5E5;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.content-container {
+  width: 1440px;
+}
+
+.section-how {
+  background-color: #FFF6ED;
+}
+
+.container {
+  width: 1325px;
+  margin: 0 auto;
+  padding: 0 58px 0 57px;
+  box-sizing: content-box;
+  font-size: 0px;
+}
+
+.section-heading {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54.47px;
+}
+
+.section-heading-how {
+  padding-top: 60px;
+  text-align: center;
+}
+
+.section-how-list {
+  padding-top: 40px;
+
+}
+
+.section-how-item {
+  width: 375px;
+  min-height: 440px;
+  display: inline-block;
+}
+
+.section-how-item:not(:last-child) {
+  margin-right: 100px;
+}
+
+.section-how-first-item {
+  background-image: url('../img/cofee.svg');
+  background-position: top;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+.section-how-two-item {
+  background-image: url('../img/mediatreining.svg');
+  background-position: top;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+.section-how-last-item {
+  background-image: url('../img/sprinting.svg');
+  background-position: top;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+.section-how-item-heading {
+  padding-top: 309px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40.85px;
+}
+
+.section-how-item-heading span {
+  color: #FF7A00;
+}
+
+.section-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.footer {
+  background-color: #FFFFFF;
+}
+
+.footer-left {
+  width: 663px;
+  padding: 60px 0 60px 0;
+  display: inline-block;
+}
+
+.section-heading-footer {
+  padding-bottom: 11px;
+}
+
+.footer-right {
+  width: 662px;
+  height: 299px;
+  margin-top: 24px;
+  display: inline-block;
+  background-image: url('../img/elipse.svg');
+  background-position: top left;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+.footer-list-top {
+ padding: 69px 0 0 112px;
+}
+
+.footer-list-item {
+  display: inline-block;
+}
+
+.footer-social-icon {
+  min-width: 70px;
+  min-height: 70px;
+}
+
+.footer-social-icon-fb {
+  margin-right: 90px;
+  display: inline-block;
+  background-image: url('../img/fb.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+.footer-social-icon-trello {
+  margin-right: 90px;
+  display: inline-block;
+  background-image: url('../img/trello.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+.footer-social-icon-worklio {
+  margin-right: 90px;
+  display: inline-block;
+  background-image: url('../img/worklio.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+.footer-social-icon-dropbox {
+  display: inline-block;
+  background-image: url('../img/dropbox.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+.footer-list-bottom {
+padding: 30px 0 0 182px;
+}
+
+.footer-social-icon-google {
+  margin-right: 90px;
+  display: inline-block;
+  background-image: url('../img/google.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+.footer-social-icon-trelloplein {
+  margin-right: 90px;
+  display: inline-block;
+  background-image: url('../img/trello-plain.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
+
+.footer-social-icon-stack {
+  display: inline-block;
+  background-image: url('../img/stack.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: top;
+}
