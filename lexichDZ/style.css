@@ -1,0 +1,40 @@
+body {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.background {
+  background-image: url('https://images.unsplash.com/photo-1534073828943-f801091bb18c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8Y2FsbHxlbnwwfHwwfA==&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+  background-repeat: no-repeat;;
+  position: absolute;
+  border: 1px black solid;
+}
+
+.alert-success {
+  background-color: rgba(117, 190, 218, 0.0);
+
+}
+
+.alert {
+  padding-bottom: 30%;
+  border: 0px;
+  size: content;
+}
+
+.container {
+padding-top: 30%;
+width: 45%;
+vertical-align: top;
+}
+
+p {
+  text-align: left;
+}
+
+.link {
+  color: #0f5132;
+}
