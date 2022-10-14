@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(60, 59, 59);
+  margin: 10px;
+}
+
+.box {
+  border-radius: 25px;
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+button {
+  text-transform: none;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.green {
+  background-color: green;
+}

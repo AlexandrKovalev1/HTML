@@ -1,0 +1,15 @@
+.block {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+margin-left:  50%;
+}
+
+.button {
+  margin-left: 51%;
+}
+.start {
+  margin: 20px auto;
+  background-color: red;
+
+}

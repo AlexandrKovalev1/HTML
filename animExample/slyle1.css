@@ -1,0 +1,16 @@
+body {
+  background: #032527;
+}
+
+.header h1 {
+  color: white;
+  text-align: center;
+}
+
+#slider {
+  width: 720px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 20px auto;
+}
